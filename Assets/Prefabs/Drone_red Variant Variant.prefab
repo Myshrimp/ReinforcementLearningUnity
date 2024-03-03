@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7938772424233971682
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 875660780, guid: 001ab150a03931f40859c4b5d610123d, type: 3}
+      propertyPath: ControlPanel
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 875660780, guid: 001ab150a03931f40859c4b5d610123d, type: 3}
+      propertyPath: HelicopterSound
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3261411147055463014, guid: 001ab150a03931f40859c4b5d610123d, type: 3}
+      propertyPath: m_RayLength
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 3967817455065144419, guid: 001ab150a03931f40859c4b5d610123d, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3967817455065144419, guid: 001ab150a03931f40859c4b5d610123d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.2088003
+      objectReference: {fileID: 0}
+    - target: {fileID: 3967817455065144419, guid: 001ab150a03931f40859c4b5d610123d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 26.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 3967817455065144419, guid: 001ab150a03931f40859c4b5d610123d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -12.517681
+      objectReference: {fileID: 0}
+    - target: {fileID: 3967817455065144419, guid: 001ab150a03931f40859c4b5d610123d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3967817455065144419, guid: 001ab150a03931f40859c4b5d610123d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3967817455065144419, guid: 001ab150a03931f40859c4b5d610123d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3967817455065144419, guid: 001ab150a03931f40859c4b5d610123d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3967817455065144419, guid: 001ab150a03931f40859c4b5d610123d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3967817455065144419, guid: 001ab150a03931f40859c4b5d610123d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3967817455065144419, guid: 001ab150a03931f40859c4b5d610123d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3967817455065563203, guid: 001ab150a03931f40859c4b5d610123d, type: 3}
+      propertyPath: m_Name
+      value: Drone_red Variant Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3261411147055463014, guid: 001ab150a03931f40859c4b5d610123d, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 001ab150a03931f40859c4b5d610123d, type: 3}
+--- !u!1 &6430202962909786017 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3967817455065563203, guid: 001ab150a03931f40859c4b5d610123d, type: 3}
+  m_PrefabInstance: {fileID: 7938772424233971682}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &92058957223089989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6430202962909786017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb6b867a41448888c1cd4f99643ad71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SensorName: RayPerceptionSensor
+  m_DetectableTags: []
+  m_RaysPerDirection: 3
+  m_MaxRayDegrees: 70
+  m_SphereCastRadius: 0.5
+  m_RayLength: 20
+  m_RayLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967291
+  m_ObservationStacks: 1
+  rayHitColor: {r: 1, g: 0, b: 0, a: 1}
+  rayMissColor: {r: 1, g: 1, b: 1, a: 1}
+  m_StartVerticalOffset: 0
+  m_EndVerticalOffset: 0
