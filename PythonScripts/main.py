@@ -1,4 +1,3 @@
-import mlagents.trainers.learn
 import mlagents
 import torch
 from mlagents_envs.environment import UnityEnvironment as UE
